@@ -1,0 +1,449 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1737967639579807, "dur": 155885, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737967639579817, "dur": 4119, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737967639583937, "dur": 136858, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737967639720797, "dur": 14896, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737967639735935, "dur": 6, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1737967639590561, "dur":452, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639591020, "dur":60, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1737967639591090, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1737967639591102, "dur":344, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1737967639591458, "dur":251, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639591709, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639708674, "dur":502, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709176, "dur":41, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709217, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709218, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709228, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709229, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709234, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709235, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709239, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709239, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709245, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709246, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709251, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709251, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709257, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709258, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709261, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709261, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709264, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709264, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709267, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709268, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709270, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709271, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709273, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709274, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709277, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709278, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709280, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709280, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709284, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709285, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709287, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709287, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709290, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709291, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709293, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709294, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709296, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709297, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709299, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709300, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709302, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709303, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709305, "dur":0, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709305, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709308, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709309, "dur":2, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709311, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709320, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639709336, "dur":568, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1737967639591453, "dur":269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639591722, "dur":1854, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639593576, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1737967639593589, "dur":1007, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639594596, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737967639594608, "dur":696, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639595304, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737967639595311, "dur":886, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639596198, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737967639596219, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639596990, "dur":36602, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1737967639633593, "dur":1457, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1737967639635052, "dur":73602, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639591445, "dur":272, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639591717, "dur":1912, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639593629, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":2, "ts":1737967639593646, "dur":193, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639593839, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639593851, "dur":904, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639594755, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639594764, "dur":759, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639595524, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639595547, "dur":949, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639596497, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639596514, "dur":917, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639597432, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639597448, "dur":792, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639598240, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639598257, "dur":1567, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639599825, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":2, "ts":1737967639599865, "dur":760, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639600625, "dur":2165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1737967639602790, "dur":870, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639603662, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/boot.config" }}
+,{ "pid":12345, "tid":2, "ts":1737967639603752, "dur":1655, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1737967639605408, "dur":103249, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737967639591456, "dur":268, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737967639591724, "dur":1905, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737967639593629, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737967639593658, "dur":186, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737967639593845, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737967639593856, "dur":881, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737967639594738, "dur":80957, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":3, "ts":1737967639675696, "dur":994, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1737967639676691, "dur":32203, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639591529, "dur":206, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639591736, "dur":1881, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639593617, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":4, "ts":1737967639593638, "dur":875, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639594513, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737967639594525, "dur":832, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639595357, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737967639595365, "dur":841, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639596207, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737967639596216, "dur":780, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639596997, "dur":1687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737967639598684, "dur":1073, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639599758, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":4, "ts":1737967639599775, "dur":635, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639600411, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1737967639600429, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1737967639601039, "dur":49901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1737967639650949, "dur":57817, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639591420, "dur":293, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639591713, "dur":1921, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639593634, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk.exe" }}
+,{ "pid":12345, "tid":5, "ts":1737967639593651, "dur":170, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639593822, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":5, "ts":1737967639593832, "dur":922, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639594755, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737967639594779, "dur":723, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639595502, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737967639595521, "dur":911, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639596433, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737967639596500, "dur":716, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639597217, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737967639597236, "dur":532, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639597769, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737967639597789, "dur":841, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639598631, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":5, "ts":1737967639598651, "dur":1314, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639599965, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1737967639600045, "dur":780, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639600826, "dur":256, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1737967639601086, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1737967639601090, "dur":65311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1737967639666421, "dur":42485, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639591490, "dur":238, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639591728, "dur":1895, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639593624, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737967639593656, "dur":869, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639594525, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737967639594541, "dur":783, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639595325, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737967639595344, "dur":930, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639596274, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737967639596281, "dur":722, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639597004, "dur":41994, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1737967639638999, "dur":11168, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1737967639650167, "dur":58689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639591507, "dur":224, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639591731, "dur":1891, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639593623, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737967639593651, "dur":958, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639594609, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737967639594630, "dur":806, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639595436, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737967639595445, "dur":826, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639596271, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737967639596278, "dur":807, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639597086, "dur":2597, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":7, "ts":1737967639599683, "dur":915, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639600599, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":7, "ts":1737967639600686, "dur":1071, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639601758, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1737967639601783, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1737967639601787, "dur":52831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":7, "ts":1737967639654629, "dur":54052, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639591588, "dur":157, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639591745, "dur":1865, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639593610, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1737967639593627, "dur":1025, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639594652, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737967639594663, "dur":847, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639595511, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737967639595533, "dur":966, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639596499, "dur":36952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":8, "ts":1737967639633452, "dur":1836, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1737967639635289, "dur":73634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639591546, "dur":192, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639591738, "dur":1873, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639593611, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":9, "ts":1737967639593630, "dur":1007, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639594638, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737967639594652, "dur":764, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639595416, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737967639595423, "dur":860, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639596284, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737967639596297, "dur":711, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639597008, "dur":766, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737967639597774, "dur":804, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639598579, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737967639598597, "dur":1245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639599843, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":9, "ts":1737967639599862, "dur":644, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639600507, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1737967639600529, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1737967639601089, "dur":49595, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":9, "ts":1737967639650697, "dur":58149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639591571, "dur":170, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639591741, "dur":1869, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639593611, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1737967639593635, "dur":978, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639594614, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737967639594624, "dur":791, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639595416, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737967639595435, "dur":945, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639596380, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737967639596387, "dur":787, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639597174, "dur":3131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1737967639600306, "dur":806, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639601113, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1737967639601133, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1737967639601136, "dur":49383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/resources.assets" }}
+,{ "pid":12345, "tid":10, "ts":1737967639650537, "dur":58312, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639591608, "dur":140, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639591748, "dur":1810, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639593558, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1737967639593584, "dur":786, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639594371, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737967639594397, "dur":789, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639595187, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737967639595211, "dur":770, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639595982, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737967639596001, "dur":734, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639596736, "dur":1787, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737967639598523, "dur":1020, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639599544, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":11, "ts":1737967639599558, "dur":761, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639600320, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1737967639600351, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1737967639602386, "dur":48670, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":11, "ts":1737967639651065, "dur":57697, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639591634, "dur":117, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639591751, "dur":1768, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639593521, "dur":103, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1737967639593624, "dur":1111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639594735, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737967639594748, "dur":753, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639595501, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737967639595511, "dur":784, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639596295, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737967639596305, "dur":1349, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639597655, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737967639597673, "dur":606, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639598279, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737967639598285, "dur":1229, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639599515, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1737967639599588, "dur":1642, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639601231, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1737967639601255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1737967639601259, "dur":67251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/level0" }}
+,{ "pid":12345, "tid":12, "ts":1737967639668520, "dur":40153, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639591652, "dur":102, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639591755, "dur":1773, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639593530, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1737967639593584, "dur":800, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639594385, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737967639594393, "dur":778, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639595171, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737967639595190, "dur":833, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639596023, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737967639596040, "dur":809, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639596850, "dur":42156, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":13, "ts":1737967639639007, "dur":10849, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1737967639649858, "dur":58813, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639591671, "dur":90, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639591761, "dur":1739, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639593502, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":14, "ts":1737967639593577, "dur":778, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639594355, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639594369, "dur":729, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639595098, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639595107, "dur":741, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639595848, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639595856, "dur":653, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639596510, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639596532, "dur":1196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639597729, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639597743, "dur":829, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639598573, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639598592, "dur":1073, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639599665, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":14, "ts":1737967639599685, "dur":1560, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639601246, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1737967639601273, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1737967639601279, "dur":65534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":14, "ts":1737967639666820, "dur":42080, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639591692, "dur":18, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639591710, "dur":1787, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639593501, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1737967639593503, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639593514, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/app.info" }}
+,{ "pid":12345, "tid":15, "ts":1737967639593515, "dur":919, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639594435, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737967639594448, "dur":865, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639595314, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737967639595329, "dur":1171, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639596501, "dur":56801, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":15, "ts":1737967639653303, "dur":1849, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1737967639655153, "dur":53511, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639591703, "dur":7, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639591711, "dur":1878, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639593589, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":16, "ts":1737967639593611, "dur":1135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639594747, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737967639594769, "dur":753, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639595522, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737967639595531, "dur":778, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639596309, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737967639596316, "dur":1157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639597474, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737967639597493, "dur":672, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639598165, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737967639598185, "dur":1240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639599426, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":16, "ts":1737967639599440, "dur":1787, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639601228, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1737967639601250, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1737967639601254, "dur":66955, "ph":"X", "name": "CopyFiles",  "args": { "detail":"K:/4BHWII/Blender/Tisch_Build/desk_Data/level0.resS" }}
+,{ "pid":12345, "tid":16, "ts":1737967639668221, "dur":40437, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639591735, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639591736, "dur":1876, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639593612, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":17, "ts":1737967639593634, "dur":881, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639594515, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737967639594528, "dur":777, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639595306, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737967639595316, "dur":1102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639596419, "dur":6, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737967639596425, "dur":671, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639597097, "dur":27274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":17, "ts":1737967639624372, "dur":2428, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":17, "ts":1737967639626804, "dur":81851, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639591769, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639591769, "dur":1753, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639593524, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":18, "ts":1737967639593586, "dur":873, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639594459, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737967639594469, "dur":777, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639595246, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737967639595257, "dur":703, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639595960, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737967639595978, "dur":750, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639596729, "dur":110581, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":18, "ts":1737967639707310, "dur":1269, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":18, "ts":1737967639708583, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":18, "ts":1737967639708585, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639591786, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639591787, "dur":1738, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639593527, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":19, "ts":1737967639593578, "dur":804, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639594383, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737967639594415, "dur":834, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639595253, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737967639595263, "dur":1027, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639596291, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737967639596311, "dur":817, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639597129, "dur":36479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":19, "ts":1737967639633609, "dur":1690, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":19, "ts":1737967639635301, "dur":73628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639591804, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639591804, "dur":1712, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639593517, "dur":68, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":20, "ts":1737967639593585, "dur":1079, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639594665, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737967639594677, "dur":760, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639595438, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737967639595457, "dur":926, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639596383, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737967639596390, "dur":721, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639597112, "dur":1592, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737967639598704, "dur":1196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639599901, "dur":60824, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":20, "ts":1737967639660726, "dur":1611, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":20, "ts":1737967639662338, "dur":46324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639591815, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639591816, "dur":1689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639593507, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":21, "ts":1737967639593588, "dur":1039, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639594627, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737967639594635, "dur":789, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639595424, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737967639595432, "dur":1070, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639596503, "dur":53167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":21, "ts":1737967639649670, "dur":806, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":21, "ts":1737967639650476, "dur":58192, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639591839, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639591839, "dur":1670, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639593511, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":22, "ts":1737967639593578, "dur":1058, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639594636, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737967639594654, "dur":835, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639595489, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737967639595496, "dur":936, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639596433, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737967639596440, "dur":1179, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639597620, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737967639597640, "dur":604, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639598245, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737967639598260, "dur":1382, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639599643, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":22, "ts":1737967639599665, "dur":5570, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":22, "ts":1737967639605237, "dur":103435, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639591857, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639591858, "dur":1654, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639593513, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":23, "ts":1737967639593573, "dur":805, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639594379, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737967639594416, "dur":871, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639595287, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737967639595296, "dur":893, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639596189, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737967639596198, "dur":658, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639596856, "dur":26348, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":23, "ts":1737967639623205, "dur":3352, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":23, "ts":1737967639626562, "dur":82111, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639591870, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639591870, "dur":1628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639593501, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":24, "ts":1737967639593525, "dur":845, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639594371, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737967639594384, "dur":797, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639595181, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737967639595190, "dur":659, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639595849, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737967639595858, "dur":662, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639596521, "dur":52874, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles K:/4BHWII/Blender/Tisch_Build/desk_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":24, "ts":1737967639649396, "dur":859, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":24, "ts":1737967639650256, "dur":58414, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1737967639710360, "dur":721, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1737967639735967, "dur": 199, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1737967639735927, "dur": 248, "ph": "X", "name": "Write chrome-trace events", "args": {} },
